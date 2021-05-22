@@ -1,0 +1,52 @@
+#S{position: absolute; top: 65px; left: 50px;  width:400px; border:2px solid #ccc; size="1"}
+
+#A{border:2px solid #ccc; font-size:16px; border-radius:5px;}
+
+#B{
+    background-color:lightblue;
+    color:black;
+    border:2px solid #white;
+    border-radius:5px;
+    font-size:16px;
+  }
+
+#m1 {COLOR:black;}
+#m1:hover {color:red;}
+
+
+body{
+background-attachment:fixed;
+background-image: url("blue5.jpg");
+
+background-repeat:no-repeat;}
+
+.container{
+  text-align: center;
+ 
+}
+
+.btn{
+  border: 2px solid lightgray;
+  
+  background: none;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-family: "montserrat";
+  cursor: pointer;
+  margin: 10px;
+  transition: 0.8s;
+  position: relative;
+  overflow: hidden;
+  
+}
+.btn1{ 
+position:relative;
+top:350px;
+
+border-radius:15px ;
+  color: #3498db;
+ 
+}
+.btn1:hover{
+  color: black;
+}

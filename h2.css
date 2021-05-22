@@ -1,0 +1,91 @@
+<style>
+  .header-of-page {
+    top: 50px;
+    z-index: 8;
+  }
+
+  .banner-mp-ad {
+    width: 100%;
+    background: linear-gradient(to right, #FE4D70, #FFB747);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+    height: 50px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+  }
+
+  .banner-mp-ad img {
+    height: 100%;
+  }
+
+  .banner-ad-title {
+    font-size: 18px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: middle;
+  }
+
+  .banner-ad-title span {
+    font-weight: bold;
+  }
+
+  .banner-ad-btn {
+    color: #fe4066;
+    display: inline-block;
+    background-color: #fff;
+    width: 150px;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    border-radius: 15px;
+    vertical-align: middle;
+    margin-left: 20px;
+  }
+
+  #close-ad {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    border: 0;
+    cursor: pointer;
+  }
+
+  @media screen and (max-width: 850px){
+    .header-of-page{
+      top: 40px;
+    }
+
+    .header-of-page.active{
+      top: 0;
+    }
+
+    .banner-ad-btn {
+      width: 110px;
+      margin-left: 6px;
+      font-size: 12px;
+    }
+  }
+
+  @media screen and (max-width: 760px){
+    .header-of-page.active{
+      top: 0;
+    }
+
+  }
+
+  @media screen and (max-width: 620px){
+    .header-of-page {
+      top: 0;
+    }
+
+    .banner-mp-ad {
+      display: none;
+    }
+  }
